@@ -1,14 +1,83 @@
 /* Variables css */
 :root{
-  --primary:;
-  --primary-light:;
-  --accent:;
-  --warning:;
-  --success:;
-  --font-family:;
-  --box-shadow:;
-  --border-radius:;
+  --primary:#a29bfe;
+  --primary-light:#ffeaa7;
+  --accent:#e84393;
+  --warning:#e84393;
+  --success:#55efc4;
+  --font-family-title:'Amatic SC', cursive;
+  --font-family: 'Roboto', sans-serif;
+  --box-shadow: 12px 12px 2px 1px rgba(129, 236, 236, 1.0);
+  --border-radius:5px;
+  --border:1px solid #ff7675;
+  --color:#636e72;
+  --color-dark:#2d3436;
+  --gray:#81ecec;
+  --gray-dark:#636e72;
 }
+/* Variables flex */
+
+.d-flex{
+  display: flex;
+}
+
+.flex-row-nowrap {
+  flex-flow: row nowrap;
+}
+
+.flex-row-wrap {
+  flex-flow: row wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+
+
+
+/* Variables margin */
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+/* Variables padding */
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
 /* Fin des variables css */
 
 
@@ -20,4 +89,16 @@
 
 body{
   min-height: 100vh;
+  font-family: var(--font-family);
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-family: var(--font-family-title);
+  text-align: center;
+  color: rgba(232, 67, 147, 1.0);
+
 }
