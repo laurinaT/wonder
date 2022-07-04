@@ -1,0 +1,23 @@
+/* Variables css */
+:root{
+  --primary:;
+  --primary-light:;
+  --accent:;
+  --warning:;
+  --success:;
+  --font-family:;
+  --box-shadow:;
+  --border-radius:;
+}
+/* Fin des variables css */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+}
